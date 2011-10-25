@@ -110,9 +110,6 @@ public class AbstractGDataOperations extends AbstractGoogleOperations {
 		Source requestSource = new StreamSource(toInputStream(entry.toXML()));
 		HttpEntity<Source> request = new HttpEntity<Source>(requestSource, headers);
 		
-		System.out.println(method + " " + url);
-		System.out.println(entry.toXML());
-		
 		ResponseEntity<StreamSource> response = restTemplate.exchange(url, method, request, StreamSource.class);
 		InputStream responseSource = response.getBody().getInputStream();
 		Element responseEntry;
@@ -125,7 +122,6 @@ public class AbstractGDataOperations extends AbstractGoogleOperations {
 	}
 	
 	protected void deleteEntry(String url) {
-		System.out.println(url);
 		restTemplate.delete(url);
 	}
 	
