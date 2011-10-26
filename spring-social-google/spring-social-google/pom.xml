@@ -42,6 +42,12 @@
         <url>https://www.intranet.finalist.com/hudson/job/Spring%20Social%20Google%20Connector</url>
     </ciManagement>
 
+    <scm>
+        <connection>scm:git:git://github.com/finalist/spring-social-google.git</connection>
+        <developerConnection>scm:git:git://github.com/finalist/spring-social-google.git</developerConnection>
+        <url>https://github.com/finalist/spring-social-google</url>
+    </scm>
+
     <repositories>
         <repository>
             <id>org.springframework.maven.release</id>
@@ -159,5 +165,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
