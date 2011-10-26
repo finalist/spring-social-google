@@ -3,7 +3,7 @@
     <groupId>org.springframework.social</groupId>
     <artifactId>spring-social-google</artifactId>
     <name>Spring Social Google</name>
-    <version>0.0.1.FINALIST</version>
+    <version>0.0.2.FINALIST-SNAPSHOT</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
