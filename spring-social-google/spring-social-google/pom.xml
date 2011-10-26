@@ -44,7 +44,7 @@
 
     <scm>
         <connection>scm:git:git://github.com/finalist/spring-social-google.git</connection>
-        <developerConnection>scm:git:git://github.com/finalist/spring-social-google.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:finalist/spring-social-google.git</developerConnection>
         <url>https://github.com/finalist/spring-social-google</url>
     </scm>
 
